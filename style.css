@@ -4,8 +4,16 @@ body {
     padding: 40px 0;
 }
 
+.container {
+    box-shadow: 0 0 20px cornflowerblue;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: white; 
+}
+
 h1 {
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -23,29 +31,27 @@ span {
 section,
 header {
     padding: 10px 60px 20px 60px;
-    background-color: white;
-    width: 960px;
-    margin: 0 auto 0 auto;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
 
 header ul {
     list-style: none;
 }
 
-header li {
+li {
     margin-bottom: 15px;
 }
 
 .address-icon {
     width: 16px;
     height: 16px;
-    background-color: rgba(255, 0, 0, 0.577);
+    background-color: cornflowerblue;
     margin-right: 10px;
     padding: 8px;
     vertical-align: middle;
@@ -58,6 +64,7 @@ header li {
 .profile-picture {
     width: 180px;
     height: 180px;
+    box-shadow: 0 0 40px cornflowerblue;
 }
 
 .hobbies {
@@ -89,6 +96,53 @@ header li {
 
 p {
     line-height: 1.7;
+    text-align: justify;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-style:normal;
+}
+
+a:hover {
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid aliceblue;
+    border-radius: 26px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+a:hover:visited {
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid aliceblue;
+    border-radius: 26px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+a:focus {
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid aliceblue;
+    border-radius: 26px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:focus:visited  {
+    color:white
 }
 
 .cv-download-link {
@@ -99,22 +153,30 @@ p {
     display: inline-block;
     margin-top: 20px;
     border-radius: 26px;
-    transition: background-color 0.5s, color 0.5s;
-
+    transition: background-color 0.5s, text-shadow 0.5s;
+    box-shadow: 0 0 20px cornflowerblue;
 }
 
 .cv-download-link:hover {
-    color: white;
-    background-color: cornflowerblue;
+    text-shadow: 0 0 1px black;
+    background-color: rgb(218, 218, 218);
+    padding: 10px 20px;
 }
 
 .cv-download-link:focus {
     outline: none;
     color: white;
     background-color: cornflowerblue;
+    padding: 10px 20px;
 }
 
 .cv-download-link:active {
-    text-decoration: underline;
+    text-decoration: none;
     color: red;
+}
+
+
+
+section li {
+    list-style-type:circle;
 }
