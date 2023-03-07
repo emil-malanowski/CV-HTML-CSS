@@ -14,6 +14,7 @@ body {
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    margin-left: 12px;
 }
 
 h2 {
@@ -26,6 +27,7 @@ h3 {
 
 span {
     color: grey;
+    margin-left: 15px;
 }
 
 section,
@@ -175,7 +177,35 @@ a:focus:visited  {
     color: red;
 }
 
+.jezyki {
+    display: flex;
+    vertical-align: middle;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.jezyki li {
+    font-size: 18px;
+    width: 66%;
+    flex-wrap: wrap;
+    line-height: 40px;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+
+.jezyki li:hover {
+    outline: none;
+    box-shadow: 0 0 20px cornflowerblue;
+    padding: 5px;
+    border-radius: 26px;
+}
+
+.photo-languages {
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 15px;
+}
 
 section li {
     list-style-type:circle;
