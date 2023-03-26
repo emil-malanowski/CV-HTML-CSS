@@ -4,8 +4,17 @@ body {
     padding: 40px 0;
 }
 
+.clock {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #zegar {
-    display: inline;
+    height: 36px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 26px;
     margin-left: 25px;
     background-color: cornflowerblue;
