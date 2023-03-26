@@ -4,6 +4,16 @@ body {
     padding: 40px 0;
 }
 
+#zegar {
+    display: inline;
+    font-size: 26px;
+    margin-left: 25px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
 .container {
     box-shadow: 0 0 20px cornflowerblue;
     width: 1000px;
