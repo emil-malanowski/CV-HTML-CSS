@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+    font-family: "Pacifico";
     font-size: 36px;
     margin-bottom: 10px;
     margin-left: 12px;
@@ -30,6 +31,8 @@ footer {
     display: flex;
     text-align: center;
     font-size: small;
+    font-family: Arial;
+    color: gray;
 }
 
 span {
@@ -45,7 +48,7 @@ header {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 60px;
 }
 
